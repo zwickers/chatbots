@@ -1,5 +1,3 @@
-Facebook requires a Terms of Service for chatbots.
+## Terms of Service
 
-Here is ours:
-
-DO NOT flood the chatbot with messages with the intention of crashing it. Thank you.
+Facebook requires a link to a Terms of Service page for your chatbot. Since our two chatbots that we built our both for educational purposes and will not be made available to the public, we are using this as a fake TOS page.
