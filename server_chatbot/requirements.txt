@@ -1,0 +1,5 @@
+flask==0.12.3
+requests==2.20.0
+pyowm==2.0.0
+apiai==1.2.3
+gunicorn==19.9.0
