@@ -19,7 +19,9 @@ First, clone the repository into your local directory. Then, navigate to the /se
 The chatbot.py code can be modified to suit the specific needs of your chatbot!
 Our chatbot is configured with a bunch of pre-existing functionality!
 
-Next, set up a heroku server from the CLI and push the code to Heroku
+Next, set up a heroku server from the CLI and push the code to Heroku.
+This can be done with 'heroku create'
+and then 'git push heroku master'
 
 On the Facebook developer console, create a messenger application, and identify the required tokens.
 Add these to the config of the Heroku server.
