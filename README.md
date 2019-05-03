@@ -6,6 +6,11 @@ The code for each lamdba function is present in the /lambda_functions folder. Si
 
 Inside your Lex development console, create an intent for each Lambda function. To associate an intent with a Lambda funtion, go to Editor --> your_intent_name --> Fulfillment, click on AWS Lambda Function, and then select the Lambda function you want to associate with it from the dropdown menu.
 
+Every Lambda function uses the python 'requests' library to make HTTP requests to various APIs. Lambda requires you to upload the source code for any libraries you import...
+Compress the /lambda_dependencies folder into a zip file. For every single one of your Lambda functions, navigate to the code editor. In the dropdown menu below "Code entry type", select "Upload a .zip file", and then select the compressed /lambda_dependencies folder.
+
+You will also need to setup a Facebook page, register your app with Facebook, and retrieve a webhook from the Facebook Developer Portal. The official Facebook tutorial explains how to do this here: https://developers.facebook.com/docs/messenger-platform/getting-started/
+
 ## Cloud Server Chatbot instructions
 See privacy_policy.txt for privacy info.
 
